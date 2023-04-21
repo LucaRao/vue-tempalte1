@@ -25,16 +25,3 @@ module.exports = (api, options, rootOptions) => {
 //   # 复制template模版
   api.render('../template');
 };
-
-var vuerc = shell.exec('vue config', { silent:true }).stdout
-var deleteConfigKey = 'useTaobaoRegistry'
-if (new RegExp(deleteConfigKey).test(vuerc)) {
-  shell.exec(`vue config --set ${deleteConfigKey} false`, { silent:true })
-}
-child.execSync(
-  `vue create --preset multi-act --clone ${projectName}`,
-  {
-    stdio: 'inherit'
-  }
-);
-fs.ensureDirSync(`${projectName}/${Configure.BaseUri}`)
