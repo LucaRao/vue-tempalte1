@@ -13,6 +13,12 @@
         ]
       }
     },
+    "rules":{
+        "no-undef": "off",
+        "vue/multi-word-component-names": ["error", "never"],
+        "no-unused-vars": "off"
+
+    },
     "vueVersion": "3",
     "cssPreprocessor": "dart-sass"
   }
