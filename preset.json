@@ -1,5 +1,7 @@
 {
     "useConfigFiles": true,
+    "plugins": {
+    },
     "vueVersion": "3",
     "cssPreprocessor": "dart-sass"
   }
