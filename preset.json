@@ -1,24 +1,5 @@
 {
     "useConfigFiles": true,
-    "plugins": {
-      "@vue/cli-plugin-router": {
-        "historyMode": false
-      },
-      "@vue/cli-plugin-vuex": {},
-      "@vue/cli-plugin-eslint": {
-        "config": "prettier",
-        "lintOn": [
-          "save",
-          "commit"
-        ]
-      }
-    },
-    "rules":{
-        "no-undef": "off",
-        "vue/multi-word-component-names": ["error", "never"],
-        "no-unused-vars": "off"
-
-    },
     "vueVersion": "3",
     "cssPreprocessor": "dart-sass"
   }
