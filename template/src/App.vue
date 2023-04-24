@@ -1,6 +1,6 @@
 <script setup>
 import { onMounted, ref } from 'vue'
-import Account from './components/Account.vue'
+import List from './components/List.vue'
 import Auth from './components/Auth.vue'
 import { supabase } from './supabase'
 
@@ -19,7 +19,7 @@ onMounted(() => {
 
 <template>
   <div class="container" style="padding: 50px 0 100px 0">
-    <Account v-if="session" :session="session" />
+    <List v-if="session" />
     <Auth v-else />
   </div>
 </template>

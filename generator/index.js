@@ -1,7 +1,7 @@
 
 module.exports = (api, options, rootOptions) => {
   api.extendPackage({
-    "name": "supabase-vue-3",
+    "name": "memfire-vue-3",
     "private": true,
     "version": "0.0.0",
     "type": "module",
