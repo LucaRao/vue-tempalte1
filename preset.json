@@ -1,5 +1,6 @@
 
   {
+    "useTaobaoRegistry": false,
     "useConfigFiles": true,
     "plugins": {
     },
