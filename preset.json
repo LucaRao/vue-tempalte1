@@ -1,7 +1,14 @@
 {
-    "useConfigFiles": true,
-    "plugins": {
-    },
-    "vueVersion": "3",
-    "cssPreprocessor": "dart-sass"
+    "useTaobaoRegistry": false, 
+    "latestVersion": "0.0.0", 
+    "packageManager": "npm",
+    "presets": {
+      "v2": {
+        "useConfigFiles": true,
+        "plugins": {
+        },
+        "vueVersion": "3",
+        "cssPreprocessor": "dart-sass"
+      }
+    }
   }
